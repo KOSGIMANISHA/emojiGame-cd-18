@@ -3,8 +3,12 @@
 import './index.css'
 
 const EmojiCard = props => {
-  const {emojiDetails} = props
-  const {emojiName, emojiUrl} = emojiDetails
+  const {emojiDetails, clickEmoji} = props
+  const {id, emojiName, emojiUrl} = emojiDetails
+
+  const onClickEmojiCard = () => {
+    clickEmoji(id)
+  }
 
   return (
     <li className="emoji-item">

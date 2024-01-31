@@ -17,7 +17,7 @@ const WinOrLoseCard = props => {
       <div className="details-section">
         <h1 className="game-status">{gameStatus}</h1>
         <p className="current-score-label">{scoreLabel}</p>
-        <p className="current-score-value">{score}</p>
+        <p className="current-score-value">{score}/12</p>
         <button
           className="play-again-button"
           type="button"

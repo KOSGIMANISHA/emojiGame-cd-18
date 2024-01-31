@@ -6,7 +6,7 @@
 .nav-bar-container {
   display: flex;
   justify-content: center;
-  background-color: #9796f0;
+  background-color: #fffff333;
   padding: 8px;
 }
 .title-with-score-container {
@@ -17,7 +17,6 @@
 }
 .emoji-logo {
   width: 24px;
-  background-color: #fffff333;
 }
 .title {
   color: #ffffff;
